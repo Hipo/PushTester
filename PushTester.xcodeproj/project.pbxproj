@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC65A85E1A0AE55900820553 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65A85D1A0AE55900820553 /* main.m */; };
+		EC65A8611A0AE55900820553 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65A8601A0AE55900820553 /* AppDelegate.m */; };
+		EC65A8641A0AE55900820553 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65A8631A0AE55900820553 /* ViewController.m */; };
+		EC65A8691A0AE55A00820553 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC65A8681A0AE55A00820553 /* Images.xcassets */; };
+		EC65A88B1A0AE74C00820553 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65A8831A0AE74C00820553 /* ALView+PureLayout.m */; };
+		EC65A88C1A0AE74C00820553 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65A8851A0AE74C00820553 /* NSArray+PureLayout.m */; };
+		EC65A88D1A0AE74C00820553 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EC65A8871A0AE74C00820553 /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC65A8581A0AE55900820553 /* PushTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC65A85C1A0AE55900820553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC65A85D1A0AE55900820553 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC65A85F1A0AE55900820553 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC65A8601A0AE55900820553 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC65A8621A0AE55900820553 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC65A8631A0AE55900820553 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC65A8681A0AE55A00820553 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC65A8821A0AE74C00820553 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		EC65A8831A0AE74C00820553 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		EC65A8841A0AE74C00820553 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		EC65A8851A0AE74C00820553 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		EC65A8861A0AE74C00820553 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		EC65A8871A0AE74C00820553 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		EC65A8881A0AE74C00820553 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		EC65A8891A0AE74C00820553 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		EC65A88A1A0AE74C00820553 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC65A8551A0AE55900820553 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC65A84F1A0AE55900820553 = {
+			isa = PBXGroup;
+			children = (
+				EC65A85A1A0AE55900820553 /* PushTester */,
+				EC65A8591A0AE55900820553 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC65A8591A0AE55900820553 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC65A8581A0AE55900820553 /* PushTester.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC65A85A1A0AE55900820553 /* PushTester */ = {
+			isa = PBXGroup;
+			children = (
+				EC65A8811A0AE74C00820553 /* PureLayout */,
+				EC65A85F1A0AE55900820553 /* AppDelegate.h */,
+				EC65A8601A0AE55900820553 /* AppDelegate.m */,
+				EC65A8621A0AE55900820553 /* ViewController.h */,
+				EC65A8631A0AE55900820553 /* ViewController.m */,
+				EC65A8681A0AE55A00820553 /* Images.xcassets */,
+				EC65A85B1A0AE55900820553 /* Supporting Files */,
+			);
+			path = PushTester;
+			sourceTree = "<group>";
+		};
+		EC65A85B1A0AE55900820553 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC65A85C1A0AE55900820553 /* Info.plist */,
+				EC65A85D1A0AE55900820553 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC65A8811A0AE74C00820553 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EC65A8821A0AE74C00820553 /* ALView+PureLayout.h */,
+				EC65A8831A0AE74C00820553 /* ALView+PureLayout.m */,
+				EC65A8841A0AE74C00820553 /* NSArray+PureLayout.h */,
+				EC65A8851A0AE74C00820553 /* NSArray+PureLayout.m */,
+				EC65A8861A0AE74C00820553 /* NSLayoutConstraint+PureLayout.h */,
+				EC65A8871A0AE74C00820553 /* NSLayoutConstraint+PureLayout.m */,
+				EC65A8881A0AE74C00820553 /* PureLayout+Internal.h */,
+				EC65A8891A0AE74C00820553 /* PureLayout.h */,
+				EC65A88A1A0AE74C00820553 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC65A8571A0AE55900820553 /* PushTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC65A87B1A0AE55A00820553 /* Build configuration list for PBXNativeTarget "PushTester" */;
+			buildPhases = (
+				EC65A8541A0AE55900820553 /* Sources */,
+				EC65A8551A0AE55900820553 /* Frameworks */,
+				EC65A8561A0AE55900820553 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushTester;
+			productName = PushTester;
+			productReference = EC65A8581A0AE55900820553 /* PushTester.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC65A8501A0AE55900820553 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Hipo;
+				TargetAttributes = {
+					EC65A8571A0AE55900820553 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = W9875NV3WF;
+					};
+				};
+			};
+			buildConfigurationList = EC65A8531A0AE55900820553 /* Build configuration list for PBXProject "PushTester" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC65A84F1A0AE55900820553;
+			productRefGroup = EC65A8591A0AE55900820553 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC65A8571A0AE55900820553 /* PushTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC65A8561A0AE55900820553 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC65A8691A0AE55A00820553 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC65A8541A0AE55900820553 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC65A8641A0AE55900820553 /* ViewController.m in Sources */,
+				EC65A8611A0AE55900820553 /* AppDelegate.m in Sources */,
+				EC65A85E1A0AE55900820553 /* main.m in Sources */,
+				EC65A88B1A0AE74C00820553 /* ALView+PureLayout.m in Sources */,
+				EC65A88C1A0AE74C00820553 /* NSArray+PureLayout.m in Sources */,
+				EC65A88D1A0AE74C00820553 /* NSLayoutConstraint+PureLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC65A8791A0AE55A00820553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Taylan Pince (3NP8F5275C)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9791e834-7ff7-4a70-8e18-da4037bb9852";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC65A87A1A0AE55A00820553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Hippo Foundry Inc. (W9875NV3WF)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a0fed657-3d90-4ca6-a2fd-067467705c90";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC65A87C1A0AE55A00820553 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PushTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC65A87D1A0AE55A00820553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PushTester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC65A8531A0AE55900820553 /* Build configuration list for PBXProject "PushTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC65A8791A0AE55A00820553 /* Debug */,
+				EC65A87A1A0AE55A00820553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC65A87B1A0AE55A00820553 /* Build configuration list for PBXNativeTarget "PushTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC65A87C1A0AE55A00820553 /* Debug */,
+				EC65A87D1A0AE55A00820553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC65A8501A0AE55900820553 /* Project object */;
+}
