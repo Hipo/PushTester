@@ -27,13 +27,19 @@
     [_window setBackgroundColor:[UIColor whiteColor]];
     [_window makeKeyAndVisible];
     
-    UIUserNotificationSettings *settings = [UIUserNotificationSettings
-                                            settingsForTypes:(UIUserNotificationTypeBadge |
-                                                              UIUserNotificationTypeSound |
-                                                              UIUserNotificationTypeAlert)
-                                            categories:nil];
-
-    [application registerUserNotificationSettings:settings];
+    if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+        UIUserNotificationSettings *settings = [UIUserNotificationSettings
+                                                settingsForTypes:(UIUserNotificationTypeBadge |
+                                                                  UIUserNotificationTypeSound |
+                                                                  UIUserNotificationTypeAlert)
+                                                categories:nil];
+        
+        [application registerUserNotificationSettings:settings];
+    } else {
+        [application registerForRemoteNotificationTypes:(UIRemoteNotificationTypeAlert |
+                                                         UIRemoteNotificationTypeBadge |
+                                                         UIRemoteNotificationTypeSound)];
+    }
     
     return YES;
 }
