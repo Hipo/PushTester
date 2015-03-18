@@ -220,7 +220,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9791e834-7ff7-4a70-8e18-da4037bb9852";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "447a78e9-a019-4aca-86d9-e9de82855adf";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -255,7 +255,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a0fed657-3d90-4ca6-a2fd-067467705c90";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "447a78e9-a019-4aca-86d9-e9de82855adf";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
